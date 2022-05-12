@@ -6,6 +6,7 @@
 }
 :root {
   --bg-gray: #ddd;
+  --text-gray: #4a4a4a;
   --color-primary: #4d41c0;
   --white: #fff;
 }
@@ -32,7 +33,7 @@ a:hover {
 }
 html,
 body {
-  background: var(--);
+  background: var(--bg-gray);
 }
 
 nav {
@@ -58,4 +59,43 @@ nav a {
 .contatos img {
   margin-right: 7px;
   margin-bottom: 5px;
+}
+#card-list {
+  background: #cc8f99;
+  padding: 40px 0;
+}
+.dsmovie-card {
+  width: 360px;
+}
+.dsmovie-card img {
+  background: #deec9d;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+}
+.description {
+  display: flex;
+  padding: 10px 0 20px 0;
+  flex-direction: column;
+  align-items: center;
+  background: var(--white);
+  border-radius: 0 0 8px 8px;
+}
+.description h3 {
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.dsmovie-btn,
+.dsmovie-btn:hover {
+  width: 180px;
+  height: 40px;
+  background-color: var(--color-primary);
+  color: var(--bg-gray);
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
 }

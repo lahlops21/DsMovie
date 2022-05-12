@@ -4,9 +4,25 @@
   font-family: Open Sans;
   box-sizing: border-box;
 }
+:root {
+  --bg-gray: #ddd;
+  --color-primary: #4d41c0;
+  --white: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 header {
-  background-color: #4d41c0;
-  color: #fff;
+  background-color: var(--color-primary);
+  color: var(--white);
+  height: 60px;
+  display: flex;
+  align-items: center;
 }
 
 a,
@@ -16,12 +32,30 @@ a:hover {
 }
 html,
 body {
-  background: #ddd;
+  background: var(--);
 }
 
 nav {
   display: flex;
   align-items: center;
-  padding: 5px;
   justify-content: space-between;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  font-size: 12px;
+  font-weight: normal;
+}
+.contatos {
+  display: flex;
+  align-items: center;
+}
+
+.contatos img {
+  margin-right: 7px;
+  margin-bottom: 5px;
 }

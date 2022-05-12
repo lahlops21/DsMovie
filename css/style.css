@@ -2,4 +2,26 @@
 
 * {
   font-family: Open Sans;
+  box-sizing: border-box;
+}
+header {
+  background-color: #4d41c0;
+  color: #fff;
+}
+
+a,
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+html,
+body {
+  background: #ddd;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: space-between;
 }
